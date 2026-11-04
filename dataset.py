@@ -50,6 +50,18 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "Lowkey having the best day ever 😊",
+    "That concert was absolutely fire!",
+    "I'm exhausted but genuinely proud of myself.",
+    "Well, that was a complete disaster 🙃",
+    "I studied all night and still failed. Great.",
+    "Not bad, actually feeling pretty good.",
+    "Just got home. Making some coffee.",
+    "The weather is nice, but I have too much work.",
+    "The movie was awful, but the ending was great.",
+    "I'm not excited about the exam.",
+    "Just waiting for the bus.",
+    "The weekend should be fun.",
 ]
 
 # Human labels for each post above.
@@ -65,6 +77,18 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "positive",  # "Lowkey having the best day ever 😊"
+    "positive",  # "That concert was absolutely fire!"
+    "mixed",     # "I'm exhausted but genuinely proud of myself."
+    "negative",  # "Well, that was a complete disaster 🙃"
+    "negative",  # "I studied all night and still failed. Great."
+    "positive",  # "Not bad, actually feeling pretty good."
+    "neutral",   # "Just got home. Making some coffee."
+    "mixed",     # "The weather is nice, but I have too much work."
+    "mixed",     # "The movie was awful, but the ending was great."
+    "negative",  # "I'm not excited about the exam."
+    "neutral",   # "Just waiting for the bus."
+    "positive",  # "The weekend should be fun."
 ]
 
 # TODO: Add 5-10 more posts and labels.
